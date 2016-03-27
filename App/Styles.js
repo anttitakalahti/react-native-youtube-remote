@@ -40,5 +40,18 @@ export default StyleSheet.create({
   },
   errorMessage: {
     color: 'red'
+  },
+  volumeRow: {
+    flexDirection: 'row'
+  },
+  volumeStatus: {
+    flex: 1,
+    height: 40,
+    marginTop: 10,
+    alignSelf: 'stretch',
+    justifyContent: 'center'
+  },
+  volumeButton: {
+    width: 40
   }
 });
