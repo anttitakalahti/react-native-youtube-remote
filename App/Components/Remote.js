@@ -34,13 +34,17 @@ class Remote extends React.Component {
         }
         console.log(result);
       })
+      .catch(error => {
+        console.log('error:', error)
+        this.setState({ errorMessage: error.message });
+      })
       .done();
   };
 
   render() {
     return(
       <View style={styles.container}>
-        <Text>{this.state.errorMessage}</Text>
+        <Text style={styles.errorMessage}>{this.state.errorMessage}</Text>
         <TouchableHighlight
           testID='submit'
           style={styles.button}

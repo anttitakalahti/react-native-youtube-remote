@@ -37,5 +37,8 @@ export default StyleSheet.create({
     color: 'white',
     fontWeight: 'bold',
     alignSelf: 'center'
+  },
+  errorMessage: {
+    color: 'red'
   }
 });
