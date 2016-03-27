@@ -1,4 +1,4 @@
-This is an App for [https://github.com/anttitakalahti/node-youtube-remote-server](anttitakalahti/node-youtube-remote-server) 
+This is an App for [anttitakalahti/node-youtube-remote-server](https://github.com/anttitakalahti/node-youtube-remote-server) 
 service I made when I was sick and too lazy to get up and pause the Youtube video from the [Great War channel](https://www.youtube.com/user/TheGreatWar).
 
 Running
