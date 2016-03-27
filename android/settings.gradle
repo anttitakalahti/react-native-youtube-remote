@@ -1,0 +1,3 @@
+rootProject.name = 'YoutubeRemote'
+
+include ':app'
